@@ -50,3 +50,83 @@ Below, we provide a quick overview of the different steps in the analysis.
 4. **Results summary**
 
 If you have any question relative to the image analysis, please contact [Thomas Bonte](mailto:thomas.bonte@mines-paristech.fr) or [Adham Safieddine](mailto:safieddine.adham@gmail.com) (or open an issue).
+
+### Data
+
+Current notebook is taking a .TIF image into input. Such image should contain (at least) 3 channels: DAPI, smFISH and GFP.
+
+| DAPI | FISH | GFP |
+| ------------- | ------------- | ------------- |
+| ![](images/DAPI_example.png) | ![](images/smFISH_example.png) |  ![](images/GFP_example.png) |
+
+### 1 - Nucleus and cell segmentation using Cellpose & Bigfish
+
+Using Cellpose for nucleus segmentation and Bigfish for cell segmentation, one can obtain such result.
+
+![](images/segmentation_example.png)
+
+### 2 - RNA molecules counting
+
+For each cell, RNA spots are then detected using Bigfish.
+
+![](images/rna_counting_cell16.png)
+
+
+### 3 - Recruited RNAs counting
+
+For each cell, P-bodies are segmented with Bigfish to count the number of RNA molecules recruited.
+
+![](images/rna_recruited_cell16.png)
+
+### 4 - Results summary
+
+Finally, all results can be saved in a csv file.
+
+| cell_id|cell_area|nuc_area|nb_rna1|nb_rna1_in_nuc|nb_rna1_out_nuc|nb_rna1_recruited | 
+|---|---|---|---|---|---|--- | 
+| 1|47542|20564|114|28|86|0 | 
+| 2|71320|33040|142|44|98|5 | 
+| 3|19278|6481|61|6|55|1 | 
+| 4|59265|27553|126|21|105|60 | 
+| 5|34352|17316|73|12|61|4 | 
+| 6|48689|12119|88|1|87|17 | 
+| 7|54479|27799|37|13|24|9 | 
+| 8|68061|26909|44|19|25|5 | 
+| 9|33651|16329|125|78|47|0 | 
+| 10|22641|9764|90|31|59|14 | 
+| 11|50673|26573|39|13|26|1 | 
+| 12|52307|27189|61|26|35|4 | 
+| 13|63447|21221|113|14|99|60 | 
+| 14|43046|24145|27|17|10|2 | 
+| 15|56381|25698|155|15|140|100 | 
+| 16|20682|10938|13|4|9|0 | 
+| 17|96309|32900|412|84|328|39 | 
+| 18|22838|12080|16|5|11|5 | 
+
+## Licensing (TO BE MODIFIED ?)
+
+- **BigFISH** and the rest of the code provided in this repository (notebook) are BSD-licenced (3 clause):
+>Copyright © 2020, Arthur Imbert  
+>All rights reserved.
+>
+>Redistribution and use in source and binary forms, with or without
+>modification, are permitted provided that the following conditions are met:
+>    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+>    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+>    * Neither the name of the copyright holder nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+>
+>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
