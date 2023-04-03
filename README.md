@@ -30,7 +30,7 @@ __Authors:__ [Adham Safieddine](mailto:safieddine.adham@gmail.com)<sup>\*</sup>,
 
 ## Prerequisites
 
-To run this notebook, we advise you ot create a dedicated environment. If you are using a GPU, make sure its drivers and the cuda libraries are correctly installed.
+To run this notebook, we advise you to create your own dedicated environment. If you are using a GPU, make sure its drivers and the cuda libraries are correctly installed.
 
 - Install [Anaconda](https://www.anaconda.com/products/distribution) for Python.
 - Open an Anaconda prompt, and create a new empty environment with Python 3.9: `conda create --name p_bodies_cycle_2023 python=3.9`.
