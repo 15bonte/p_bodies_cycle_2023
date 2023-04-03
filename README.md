@@ -63,7 +63,7 @@ Using Cellpose for nucleus segmentation and Bigfish for cell segmentation, one c
 
 ![](images/segmentation_example.png)
 
-### 2 - RNA molecules counting
+### 2 - Total RNA detection
 
 For each cell, RNA spots are then detected using Bigfish. Here are displayed two cells, one with high expression in the cytoplasm and low amounts of RNA in P-bodies, and another cell with high amounts of RNA in P-bodies.
 
@@ -71,7 +71,7 @@ For each cell, RNA spots are then detected using Bigfish. Here are displayed two
 ![](images/rna_counting_cell10.png)
 
 
-### 3 - Recruited RNAs counting
+### 3 - P-body RNA detection
 
 For each cell, P-bodies are segmented with Bigfish to count the number of RNA molecules recruited. Here are displayed the same cells as in previous step.
 
