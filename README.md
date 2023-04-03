@@ -8,7 +8,7 @@ This repository gathers the code used for the following paper:
 
 __Title:__ Purifying p-bodies across the cell cycle reveals a widespread cyclic RNA storage function and an RNA localization mechanism dependent on the CDS length
 
-__Authors:__ [Adham Safieddine](mailto:safieddine.adham@gmail.com)<sup>\*</sup>, Marie-Noëlle Benassy, Thomas Bonte, Michel Kress, Michèle Ernoult-Lange, Maïté Courel, Emeline Coleno, Antoine Laine, Annie Munier Godebert, Angelique Vinit, Corinne Blugeon, Guillaume Chevreux, Oriane Pourcelot ?, Edouard Bertrand, Daniel Gautheret, Thomas Walter, Marianne Bénard, Dominique Weil<sup>\*</sup>
+__Authors:__ [Adham Safieddine](mailto:adham.safieddine@sorbonne-universite.fr)<sup>\*</sup>, Marie-Noëlle Benassy, Thomas Bonte, Michel Kress, Michèle Ernoult-Lange, Maïté Courel, Emeline Coleno, Antoine Laine, Annie Munier Godebert, Angelique Vinit, Corinne Blugeon, Guillaume Chevreux, Oriane Pourcelot ?, Edouard Bertrand, Daniel Gautheret, Thomas Walter, Marianne Bénard, [Dominique Weil](mailto:dominique.weil@upmc.fr)<sup>\*</sup>
 
 <!-- [Adham Safieddine](mailto:safieddine.adham@gmail.com)<sup>1,2,\*</sup>, Emeline Coleno<sup>1,2</sup>, Soha Salloum<sup>1,2,3,+</sup>, Arthur Imbert<sup>4,5,6,+</sup>, Abdel-Meneem Traboulsi<sup>1,2</sup>, Oh Sung Kwon<sup>7</sup>, Frederic Lionneton<sup>8</sup>, Virginie Georget<sup>8</sup>, Marie-Cécile Robert<sup>1,2</sup>, Thierry Gostan<sup>1</sup>, Charles Lecellier<sup>1,2</sup>, Racha Chouaib<sup>1,2,5</sup>, Xavier Pichon<sup>1,2</sup>, Hervé Le Hir<sup>3</sup> , Kazem Zibara<sup>5</sup>, Florian Müller<sup>9,10</sup>, Thomas Walter<sup>4,5,6</sup>, Marion Peter<sup>1,2</sup>, [Edouard Bertrand](mailto:edouard.bertrand@igmm.cnrs.fr)<sup>1,2,11,\*</sup>
 
@@ -82,7 +82,7 @@ For each cell, P-bodies are segmented with Bigfish to count the number of RNA mo
 
 Finally, all results can be saved in a csv file.
 
-| cell_id|cell_area|nuc_area|nb_rna1|nb_rna1_in_nuc|nb_rna1_out_nuc|nb_rna1_recruited | 
+| cell_id|cell_area|nuc_area|nb_rna|nb_rna_in_nuc|nb_rna_out_nuc|nb_rna_recruited | 
 |---|---|---|---|---|---|--- | 
 | 1|47542|20564|114|28|86|0 | 
 | 2|71320|33040|142|44|98|5 | 
