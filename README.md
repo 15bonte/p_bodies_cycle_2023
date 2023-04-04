@@ -47,7 +47,7 @@ Below, we provide a quick overview of the different steps in the analysis.
 3. **P-body RNA detection**
 4. **Results summary**
 
-If you have any question relative to the image analysis, please contact [Thomas Bonte](mailto:thomas.bonte@mines-paristech.fr) or [Adham Safieddine](mailto:safieddine.adham@gmail.com) (or open an issue).
+If you have any question relative to the image analysis, please contact [Thomas Bonte](mailto:thomas.bonte@mines-paristech.fr) or [Adham Safieddine](mailto:adham.safieddine@sorbonne-universite.fr) (or open an issue).
 
 ### Data
 
