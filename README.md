@@ -43,8 +43,8 @@ To run this notebook, we advise you to create your own dedicated environment. If
 Below, we provide a quick overview of the different steps in the analysis.
 
 1. **Nucleus and cell segmentation using Cellpose & Bigfish** 
-2. **RNA molecules counting**
-3. **Recruited RNAs counting**
+2. **Total RNA detection**
+3. **P-body RNA detection**
 4. **Results summary**
 
 If you have any question relative to the image analysis, please contact [Thomas Bonte](mailto:thomas.bonte@mines-paristech.fr) or [Adham Safieddine](mailto:safieddine.adham@gmail.com) (or open an issue).
