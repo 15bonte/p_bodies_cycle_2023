@@ -4,9 +4,9 @@
 [![Python 3.6](https://img.shields.io/badge/python-3.9.16-blue.svg)](https://www.python.org/downloads/release/python-3916/)
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4322750.svg)](https://doi.org/10.5281/zenodo.4322750) -->
 
-This repository gathers the code used for the following paper:
+This repository gathers the code used for smFISH analysis of the following paper:
 
-__Title:__ Purifying p-bodies across the cell cycle reveals a widespread cyclic RNA storage function and an RNA localization mechanism dependent on the CDS length
+__Title:__ Cell cycle-dependent mRNA localization in P-bodies
 
 __Authors:__ [Adham Safieddine](mailto:adham.safieddine@sorbonne-universite.fr)<sup>\*</sup>, Marie-Noëlle Benassy, Thomas Bonte, Michel Kress, Michèle Ernoult-Lange, Maïté Courel, Arthur Imbert, Emeline Coleno, Antoine Laine, Annie Munier Godebert, Angelique Vinit, Corinne Blugeon, Guillaume Chevreux, Edouard Bertrand, Daniel Gautheret, Thomas Walter, Marianne Bénard, [Dominique Weil](mailto:dominique.weil@upmc.fr)<sup>\*</sup>
 
