@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-BSD%203--Clause-green)](https://github.com/15bonte/p_bodies_cycle_2023/blob/main/LICENSE)
 [![Python 3.6](https://img.shields.io/badge/python-3.9.16-blue.svg)](https://www.python.org/downloads/release/python-3916/)
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4322750.svg)](https://doi.org/10.5281/zenodo.4322750) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12742387.svg)](https://doi.org/10.5281/zenodo.12742387)
 
 This repository gathers the code used for smFISH analysis of the following paper:
 
